@@ -1,0 +1,168 @@
+body{
+    
+    margin: 0;
+    
+   
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    background-color: saddlebrown;    
+}
+h1{
+    color: seashell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding-left: 10px;
+    /* font-size: 40px; */
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    color: seashell;
+    transition: all 0.3s ease 0s;
+}
+ul li a:hover{
+    color: burlywood;   
+}
+
+.uvod{
+    text-align: center;
+    line-height: 5px;
+    margin-bottom: 7rem;
+    
+}
+
+.uvod p:nth-child(1){
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.uvod p:nth-child(2){
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    
+
+}
+
+.uvod p:nth-child(3){
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    font-weight: 300;
+    
+    
+
+}
+
+.kresleni,.tanec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.kresleni,.tanec p{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    
+    
+}
+
+.polozka1,.polozka0{
+    background-color: tan;
+    max-width: 500px;
+    padding: 0px 10px;
+}
+
+.polozka1{
+    height:375px;
+    
+}
+
+.polozka0{
+    height:283px;
+}
+
+.polozka2{
+    max-width: 500px;
+    margin-bottom: 7rem;
+
+}
+
+.kontakty{
+    text-align: center;
+    font-size: 31px;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 5px;
+}
+
+.fb{
+    background-color:#008CBA ;
+}
+
+.ig{
+    background-color: darkorange;
+}
+
+.yt{
+    background-color: red;
+}
+
+.tt{
+    background-color: greenyellow;
+}
+
+.btn{
+    border: none;
+    color: seashell;
+    font-size: 20px;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 0.5rem 0.5rem;
+    width: 8rem;
+    opacity: 0.5;   
+    
+}
+
+
+
+.btn:hover{
+    /* border-radius: 10%; */
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    transform: scaleX(1.2) scaleY(1.2);
+    
+}
+.btn:hover:active{
+    border: none;
+}
+
+@media screen and (max-width:1000px){
+    .polozka0,.polozka1{
+        height: 180px;
+        width: 380px;
+    }
+
+    img{
+        width: 400px;
+    }
+
+    ul li{
+        padding: 10px 10px;
+    }
+
+}
